@@ -14,6 +14,9 @@
 		7FD0D1CF1FAA069400F48DD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FD0D1CD1FAA069400F48DD6 /* LaunchScreen.storyboard */; };
 		7FD0D1DA1FAA069400F48DD6 /* PeliculasAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD0D1D91FAA069400F48DD6 /* PeliculasAppTests.swift */; };
 		7FD0D1E51FAA069400F48DD6 /* PeliculasAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD0D1E41FAA069400F48DD6 /* PeliculasAppUITests.swift */; };
+		7FD0D1F31FAA079700F48DD6 /* PeliculasAppTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD0D1F21FAA079700F48DD6 /* PeliculasAppTableViewController.swift */; };
+		7FD0D1F51FAA07D500F48DD6 /* PeliculasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD0D1F41FAA07D500F48DD6 /* PeliculasTableViewCell.swift */; };
+		7FD0D1F71FAA07FD00F48DD6 /* Pelicula.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD0D1F61FAA07FD00F48DD6 /* Pelicula.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		7FD0D1E01FAA069400F48DD6 /* PeliculasAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeliculasAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FD0D1E41FAA069400F48DD6 /* PeliculasAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeliculasAppUITests.swift; sourceTree = "<group>"; };
 		7FD0D1E61FAA069400F48DD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FD0D1F21FAA079700F48DD6 /* PeliculasAppTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeliculasAppTableViewController.swift; sourceTree = "<group>"; };
+		7FD0D1F41FAA07D500F48DD6 /* PeliculasTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeliculasTableViewCell.swift; sourceTree = "<group>"; };
+		7FD0D1F61FAA07FD00F48DD6 /* Pelicula.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pelicula.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				7FD0D1CB1FAA069400F48DD6 /* Assets.xcassets */,
 				7FD0D1CD1FAA069400F48DD6 /* LaunchScreen.storyboard */,
 				7FD0D1D01FAA069400F48DD6 /* Info.plist */,
+				7FD0D1F21FAA079700F48DD6 /* PeliculasAppTableViewController.swift */,
+				7FD0D1F41FAA07D500F48DD6 /* PeliculasTableViewCell.swift */,
+				7FD0D1F61FAA07FD00F48DD6 /* Pelicula.swift */,
 			);
 			path = PeliculasApp;
 			sourceTree = "<group>";
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FD0D1F51FAA07D500F48DD6 /* PeliculasTableViewCell.swift in Sources */,
 				7FD0D1C71FAA069400F48DD6 /* ViewController.swift in Sources */,
 				7FD0D1C51FAA069400F48DD6 /* AppDelegate.swift in Sources */,
+				7FD0D1F71FAA07FD00F48DD6 /* Pelicula.swift in Sources */,
+				7FD0D1F31FAA079700F48DD6 /* PeliculasAppTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
